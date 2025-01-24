@@ -3,7 +3,7 @@
 #### Technical Skills: Python, JS, CSS, HTML
 
 ## Education			        		
-- B.S., Computer Science | Loyola Marymount University (Expected, _May 2027_)
+B.S., Computer Science | Loyola Marymount University (Expected, _May 2027_)
 
 ## Work Experience
 **Projet Lead, Microsoft (_April 2023 - July_)**
