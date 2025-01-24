@@ -4,6 +4,10 @@
 
 ## Education			        		
 B.S., Computer Science | Loyola Marymount University (Expected, _May 2027_)
+- Relevant Coursework: Computer Programming and Lab, Exploring Computer Science, Data Structures and Applications, Algorithms and Analysis, Computer Systems Organization, Web Application Development, Discrete Mathematics for Computer Science
+- Activities and Societies: Sigma Chi Fraternity, Huntsman Cancer Foundation, PickleBall Club, SnowBoarding/Skiing
+
+Intro to Eutrepreneurship | Loyola Marymount University (Summer 2022)
 
 ## Work Experience
 **Projet Lead, Microsoft (_April 2023 - July_)**
