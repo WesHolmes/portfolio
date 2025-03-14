@@ -26,5 +26,7 @@ Intro to Eutrepreneurship | Loyola Marymount University (Summer 2022)
 
 ## Skills
 Frameworks and Tools: Excel, PowerPoint, React, GitHub, VS Code, Slack, Microsoft Azure
+
 Professional Skills: Leadership, Strategic Thinking, Technology Solutions, Project Management, Client Relations
+
 Interests: Snowboarding/Skiing, Music, PickleBall, Travelling, Investing, Hiking, Long Distance Running, Weight Lifting, Video Games
