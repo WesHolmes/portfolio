@@ -1,6 +1,6 @@
 # Student at Loyola Marymount University
 
-#### Technical Skills: Python, JS, CSS, HTML
+#### Technical Skills: Python, JS, CSS, HTML, SQL, TypeScript
 
 ## Education			        		
 B.S., Computer Science | Loyola Marymount University (Expected, _May 2027_)
@@ -25,6 +25,6 @@ Intro to Eutrepreneurship | Loyola Marymount University (Summer 2022)
 - Risk management within the Sigma Chi fraternity means promoting safety, accountability, and ethical conduct among members and guests. Involving identifying risks associated with fraternity activities, implementing proactive measures to mitigate such risks, and fostering a culture of responsibility and respect. Key areas of focus include event planning, policies, conflict resolution, and adherence to both university and fraternity guidelines. While maintaining an emphasis on education, communication, and collaboration.
 
 ## Skills
-Frameworks and Tools: Excel, PowerPoint, React, GitHub, VS Code, Slack
+Frameworks and Tools: Excel, PowerPoint, React, GitHub, VS Code, Slack, Microsoft Azure
 Professional Skills: Leadership, Strategic Thinking, Technology Solutions, Project Management, Client Relations
 Interests: Snowboarding/Skiing, Music, PickleBall, Travelling, Investing, Hiking, Long Distance Running, Weight Lifting, Video Games
