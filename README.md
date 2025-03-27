@@ -30,3 +30,20 @@ Frameworks and Tools: Excel, PowerPoint, React, GitHub, VS Code, Slack, Microsof
 Professional Skills: Leadership, Strategic Thinking, Technology Solutions, Project Management, Client Relations
 
 Interests: Snowboarding/Skiing, Music, PickleBall, Travelling, Investing, Hiking, Long Distance Running, Weight Lifting, Video Games
+
+## Projects
+### Snake game
+- Play snake game
+- collect apples to grow your snake
+- create and beat highscores
+### Data Managment System
+- View employees in the database
+- Add new employees with name, position, and salary
+- Update existing employee details
+- Delete employees from the database
+### Chess API search engine
+- search chess players from around the world
+- view player details
+- sign in/sign out authentication
+- save favorite players
+- view saved players
