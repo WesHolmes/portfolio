@@ -37,7 +37,7 @@ Interests: Snowboarding/Skiing, Music, PickleBall, Travelling, Investing, Hiking
 - collect apples to grow your snake
 - create and beat highscores
 
-**Data Managment System**
+**Employee Database Managment System**
 - View employees in the database
 - Add new employees with name, position, and salary
 - Update existing employee details
