@@ -3,6 +3,7 @@
 #### Technical Skills: Python, JavaScript, CSS, HTML, SQL, TypeScript
 
 ## About Me
+---
 I'm a student at Loyola Marymount University studying computer science, with interest and high ambition in software engineering, development, and artificial intelligence. I am a diligent worker, a critical thinker and an adept learner with a consistent growth mindset - looking to foster innovation and expand my skillset. Experienced in computer programming, AI application, and product management. Currently looking for opportunities to gain hands-on experience, grow my technical skills, and work on real-world projects. I enjoy building things, solving problems, and learning new technologies. Always open to making connections and exploring new opportunities.
 
 ## Education			        		
