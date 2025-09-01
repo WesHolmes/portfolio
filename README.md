@@ -6,7 +6,8 @@
 ---
 I'm a student at Loyola Marymount University studying computer science, with interest and high ambition in software engineering, development, and artificial intelligence. I am a diligent worker, a critical thinker and an adept learner with a consistent growth mindset - looking to foster innovation and expand my skillset. Experienced in computer programming, AI application, and product management. Currently looking for opportunities to gain hands-on experience, grow my technical skills, and work on real-world projects. I enjoy building things, solving problems, and learning new technologies. Always open to making connections and exploring new opportunities.
 
-## Education			        		
+## Education
+---
 B.S., Computer Science | Loyola Marymount University (Expected, _May 2027_)
 - Relevant Coursework: Data Structures and Applications, Algorithms and Analysis, Computer Systems Organization, Web Application Development, Discrete Mathematics for Computer Science, Artificial Intelligence, Databases, Languages and Automata I, Languages and Automata II(Expected)
 - Activities and Societies: Sigma Chi Fraternity, Huntsman Cancer Foundation, PickleBall Club, SnowBoarding/Skiing
@@ -14,7 +15,7 @@ B.S., Computer Science | Loyola Marymount University (Expected, _May 2027_)
 Intro to Eutrepreneurship | Loyola Marymount University (Summer 2022)
 
 ## Experience
-
+---
 **Coding Tutor, Private Tutor (_March 2025 - Present_)**
 - Worked directly with children helping them create a dynamic understanding of languages like python.
 - Enhancing skills in software development and mathematics.
@@ -37,6 +38,7 @@ Intro to Eutrepreneurship | Loyola Marymount University (Summer 2022)
 - Ensured collaboration and drove the project toward successful completion.
 
 ## Projects
+---
 **IT dashboard**
 - Aesthetic user interface using CSS
 - Buttons and routes using html, javascript, and python
@@ -66,6 +68,7 @@ Intro to Eutrepreneurship | Loyola Marymount University (Summer 2022)
 
 
 ## Leadership
+---
 ### Sigma Chi Fraternity
 **Scholarship Chairman (_March 2025 - Present_)**
 - Driving academic excellence and a career driven environment within the chapter.
@@ -76,6 +79,7 @@ Intro to Eutrepreneurship | Loyola Marymount University (Summer 2022)
 - Risk management within the Sigma Chi fraternity means promoting safety, accountability, and ethical conduct among members and guests. Involving identifying risks associated with fraternity activities, implementing proactive measures to mitigate such risks, and fostering a culture of responsibility and respect. Key areas of focus include event planning, policies, conflict resolution, and adherence to both university and fraternity guidelines. While maintaining an emphasis on education, communication, and collaboration.
 
 ## Skills
+---
 Frameworks and Tools: Excel, PowerPoint, React, GitHub, VS Code, Slack, Microsoft Azure
 Professional Skills: Leadership, Strategic Thinking, Technology Solutions, Project Management, Client Relations
 Interests: Snowboarding/Skiing, Music, PickleBall, Travelling, Investing, Hiking, Long Distance Running, Weight Lifting, Video Games
