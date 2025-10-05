@@ -66,6 +66,14 @@ Intro to Eutrepreneurship | Loyola Marymount University (Summer 2022)
 - save favorite players
 - view saved players
 
+**Rhythmic AI**
+- AI assistance
+- SQL database
+- SendGrid email sharing
+- user authentication and privacy
+- Project Managment
+- Azure Deployment
+
 
 ## Leadership
 ---
