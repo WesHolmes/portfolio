@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Westley Holmes - Computer Science Student & Software Engineer Portfolio">
+    <title>Westley Holmes | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">WH</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-greeting">Hello, I'm</div>
+                <h1 class="hero-name">
+                    <span class="name-line">Westley</span>
+                    <span class="name-line">Holmes</span>
+                </h1>
+                <div class="hero-title">
+                    <span class="typing-text" id="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    Computer Science student at Loyola Marymount University with a passion for 
+                    software engineering, AI, and building innovative solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://www.linkedin.com/in/westley-holmes-98722925a" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                    <a href="https://github.com/WesHolmes/portfolio" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-card-inner">
+                        <div class="profile-image-wrapper">
+                            <img src="profile.jpg" alt="Westley Holmes" class="profile-image" id="profile-image">
+                            <div class="profile-image-overlay"></div>
+                        </div>
+                        <div class="profile-card-border"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-text">About Me</span>
+                <span class="title-line"></span>
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a student at Loyola Marymount University studying computer science, with interest 
+                        and high ambition in software engineering, development, and artificial intelligence.
+                    </p>
+                    <p>
+                        I am a diligent worker, a critical thinker and an adept learner with a consistent growth 
+                        mindset - looking to foster innovation and expand my skillset. Experienced in computer 
+                        programming, AI application, and product management.
+                    </p>
+                    <p>
+                        Currently looking for opportunities to gain hands-on experience, grow my technical skills, 
+                        and work on real-world projects. I enjoy building things, solving problems, and learning 
+                        new technologies. Always open to making connections and exploring new opportunities.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <span class="highlight-icon">💼</span>
+                            <span>Product Management</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">🤖</span>
+                            <span>AI Application</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">🚀</span>
+                            <span>Software Development</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <div class="image-placeholder">
+                            <img src="https://media.istockphoto.com/id/537331500/photo/programming-code-abstract-technology-background-of-software-deve.webp?b=1&s=612x612&w=0&k=20&c=B1O_UHuhlV34GJnQxQgxGDqmtBKMJkMf_FGssI1WEVE=" alt="Programming code abstract technology background">
+                        </div>
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="education-section">
+                <h3 class="subsection-title">Education</h3>
+                <div class="education-card">
+                    <div class="education-header">
+                        <div class="education-degree">
+                            <h4>B.S., Computer Science</h4>
+                            <span class="education-school">Loyola Marymount University</span>
+                        </div>
+                        <div class="education-date">Expected May 2027</div>
+                    </div>
+                    <div class="education-details">
+                        <p class="education-label">Relevant Coursework:</p>
+                        <div class="coursework-grid">
+                            <span class="course-tag">Data Structures</span>
+                            <span class="course-tag">Algorithms</span>
+                            <span class="course-tag">Computer Systems</span>
+                            <span class="course-tag">Web Development</span>
+                            <span class="course-tag">Discrete Math</span>
+                            <span class="course-tag">Artificial Intelligence</span>
+                            <span class="course-tag">Databases</span>
+                            <span class="course-tag">Languages & Automata</span>
+                        </div>
+                        <p class="education-activities">
+                            <strong>Activities:</strong> Sigma Chi Fraternity, Huntsman Cancer Foundation, 
+                            PickleBall Club, SnowBoarding/Skiing
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-text">Experience</span>
+                <span class="title-line"></span>
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">March 2025 - Present</div>
+                        <h3 class="timeline-title">Coding Tutor</h3>
+                        <h4 class="timeline-company">Private Tutor</h4>
+                        <ul class="timeline-details">
+                            <li>Worked directly with children helping them create a dynamic understanding of languages like Python</li>
+                            <li>Enhancing skills in software development and mathematics</li>
+                            <li>Encouraged an engaging learning environment that promotes curiosity, creativity, and long-term academic growth</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">June 2025 - August 2025</div>
+                        <h3 class="timeline-title">Automation Engineer</h3>
+                        <h4 class="timeline-company">DivergeIT</h4>
+                        <ul class="timeline-details">
+                            <li>Planned, designed, and developed an automated data fetching and analysis system from the ground up</li>
+                            <li>Built multiple Azure Functions for automated SQLite database syncing, analysis, and population</li>
+                            <li>Integrated these functions into a front end using Flask to enable quick and user friendly IT analysis</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">May 2024 - August 2024</div>
+                        <h3 class="timeline-title">Summer Intern</h3>
+                        <h4 class="timeline-company">Rain City Technology</h4>
+                        <ul class="timeline-details">
+                            <li>Performed over 25 hardware diagnostics and repairs on laptops and desktop computers</li>
+                            <li>Acquired knowledge of modern computer systems, from motherboard inner workings to binary instructions</li>
+                            <li>Received mentorship in foundational aspects of data recovery and cybersecurity</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">April 2023 - July 2023</div>
+                        <h3 class="timeline-title">Project Manager</h3>
+                        <h4 class="timeline-company">Microsoft</h4>
+                        <ul class="timeline-details">
+                            <li>Designed and conducted an in-depth research project aimed at enhancing workplace dynamics</li>
+                            <li>Collected and presented over 40 in-person interviews from various institutions in Seattle, Washington</li>
+                            <li>Led team members in data collection by developing targeted interview-specific questions</li>
+                            <li>Served as a key figure in overall planning and execution of the project</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Leadership -->
+            <div class="leadership-section">
+                <h3 class="subsection-title">Leadership</h3>
+                <div class="leadership-grid">
+                    <div class="leadership-card">
+                        <div class="leadership-org">Sigma Chi Fraternity</div>
+                        <h4 class="leadership-role">Scholarship Chairman</h4>
+                        <div class="leadership-date">March 2025 - Present</div>
+                        <ul class="leadership-details">
+                            <li>Driving academic excellence and a career driven environment within the chapter</li>
+                            <li>Boosted productivity within my chapter by 20% by encouraging academic fraternal activities</li>
+                            <li>Ensuring members remain focused on their studies and professional aspirations</li>
+                        </ul>
+                    </div>
+                    <div class="leadership-card">
+                        <div class="leadership-org">Sigma Chi Fraternity</div>
+                        <h4 class="leadership-role">Assistant Risk Manager</h4>
+                        <div class="leadership-date">January 2024 - December 2024</div>
+                        <ul class="leadership-details">
+                            <li>Risk management within the fraternity promoting safety, accountability, and ethical conduct</li>
+                            <li>Implementing proactive measures to mitigate risks associated with fraternity activities</li>
+                            <li>Fostering a culture of responsibility and respect while maintaining emphasis on education</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-text">Featured Projects</span>
+                <span class="title-line"></span>
+            </h2>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <div class="project-icons">
+                            <span class="folder-icon">📁</span>
+                            <div class="project-links">
+                                <a href="https://github.com/WesHolmes" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub">
+                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">IT Dashboard</h3>
+                        <p class="project-description">
+                            Aesthetic user interface using CSS, buttons and routes using HTML, JavaScript, and Python. 
+                            Utilizing the Automated Data Syncing and Analysis System. Integrated Azure functions into 
+                            the front end to enable quick and user friendly IT analysis.
+                        </p>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">Azure</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icons">
+                            <span class="folder-icon">📁</span>
+                            <div class="project-links">
+                                <a href="https://github.com/WesHolmes" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub">
+                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Automated Data Syncing System</h3>
+                        <p class="project-description">
+                            SQLite database utilizing Azure Functions timer trigger for automated syncing and HTTP 
+                            trigger for manual database population, reports, risks, and actions.
+                        </p>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Azure Functions</span>
+                        <span class="tech-tag">SQLite</span>
+                        <span class="tech-tag">Python</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icons">
+                            <span class="folder-icon">📁</span>
+                            <div class="project-links">
+                                <a href="https://github.com/WesHolmes" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub">
+                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Employee Database Management</h3>
+                        <p class="project-description">
+                            SQLite database system for managing employees. Add new employees with name, position, 
+                            and salary. Update existing employee details and delete employees from the database.
+                        </p>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">SQLite</span>
+                        <span class="tech-tag">Python</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icons">
+                            <span class="folder-icon">📁</span>
+                            <div class="project-links">
+                                <a href="https://github.com/WesHolmes" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub">
+                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Chess.com API Search Engine</h3>
+                        <p class="project-description">
+                            API fetching application to search chess players from around the world, view player 
+                            details, sign in/sign out authentication, save favorite players, and view saved players.
+                        </p>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">API</span>
+                        <span class="tech-tag">Authentication</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icons">
+                            <span class="folder-icon">📁</span>
+                            <div class="project-links">
+                                <a href="https://github.com/WesHolmes" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub">
+                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Rhythmic AI</h3>
+                        <p class="project-description">
+                            AI assistance application with SQL database, SendGrid email sharing, user authentication 
+                            and privacy, project management features, and Azure deployment.
+                        </p>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">AI</span>
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">SendGrid</span>
+                        <span class="tech-tag">Azure</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-text">Skills & Tools</span>
+                <span class="title-line"></span>
+            </h2>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3 class="skills-category-title">Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">TypeScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">HTML</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="skills-category-title">Frameworks & Tools</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span class="skill-name">React</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">VS Code</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Azure</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Flask</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Slack</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Excel</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">PowerPoint</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="skills-category-title">Professional Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span class="skill-name">Leadership</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Strategic Thinking</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Project Management</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Client Relations</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Technology Solutions</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-text">Get In Touch</span>
+                <span class="title-line"></span>
+            </h2>
+            <div class="contact-content">
+                <p class="contact-description">
+                    I'm currently looking for new opportunities! Whether you have a question or just want to say hi, 
+                    I'll try my best to get back to you.
+                </p>
+                <a href="mailto:westleyholmesbusiness@gmail.com" class="btn btn-primary btn-large">Say Hello</a>
+                <div class="contact-info">
+                    <a href="tel:206-739-7557" class="contact-link">
+                        <span class="contact-icon">📞</span>
+                        <span>206-739-7557</span>
+                    </a>
+                    <a href="mailto:westleyholmesbusiness@gmail.com" class="contact-link">
+                        <span class="contact-icon">✉️</span>
+                        <span>westleyholmesbusiness@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/westley-holmes-98722925a" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <span class="contact-icon">💼</span>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                Designed & Built by Westley Holmes
+            </p>
+            <p class="footer-text">
+                <a href="https://github.com/WesHolmes/portfolio" target="_blank" rel="noopener noreferrer" class="footer-link">
+                    View on GitHub
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
