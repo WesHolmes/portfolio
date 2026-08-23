@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Westley Holmes — Software Engineer. Computer Science at Loyola Marymount University.">
+    <title>Westley Holmes | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav__inner">
+            <a href="#home" class="nav__mark"><span class="nav__dot"></span>WH</a>
+            <div class="nav__links">
+                <a href="#home" class="nav__link" data-navlink="home">Home</a>
+                <a href="#about" class="nav__link" data-navlink="about">About</a>
+                <a href="#projects" class="nav__link" data-navlink="projects">Projects</a>
+                <a href="#contact" class="nav__link" data-navlink="contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero__backdrop">
+            <canvas id="lattice"></canvas>
+            <div class="hero__scrim"></div>
+            <div class="blob blob--1"></div>
+            <div class="blob blob--2"></div>
+            <div class="blob blob--3"></div>
+        </div>
+        <div class="hero__content">
+            <h1 class="hero__title">Hello, I'm Westley.<br>I'm a <em>Software Engineer</em>.</h1>
+            <p class="hero__sub">Looking to foster innovation and expand my skillset.</p>
+            <div class="hero__social">
+                <a href="https://github.com/WesHolmes" target="_blank" rel="noopener noreferrer" class="icon-btn"
+                    aria-label="GitHub">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/westley-holmes-98722925a" target="_blank" rel="noopener noreferrer"
+                    class="icon-btn" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="wrap split">
+            <div class="eyebrow" data-reveal>01 / About</div>
+            <div>
+                <p class="lede" data-reveal>
+                    I build the systems that keep other systems honest — test infrastructure, data pipelines, and the
+                    tooling that makes both legible to the people who depend on them.
+                </p>
+                <p class="body" data-reveal>
+                    I'm a Computer Science student at Loyola Marymount University, graduating May 2027. This past summer
+                    I was a Software Engineering Intern at Splunk in Seattle, where I evaluated Kubernetes end-to-end
+                    testing frameworks across teams and clusters, then extended the one we chose with run IDs, run
+                    statuses, and run summaries so failures stopped being invisible.
+                </p>
+                <p class="body" data-reveal>
+                    Before that I wrote Azure Functions at DivergeIT that collect, clean, and synchronize multi-tenant
+                    Microsoft Graph data into SQL, and led a research project at Microsoft that turned 40+ interviews
+                    into workplace design recommendations. I like problems where the engineering and the reasoning
+                    behind it both have to hold up.
+                </p>
+                <p class="body" data-reveal>
+                    Outside of that: Sigma Chi, pickleball, and a long-running argument with myself about the right
+                    amount of abstraction.
+                </p>
+                <div class="stats" data-reveal>
+                    <div class="stat">
+                        <div class="stat__n">50+</div>
+                        <div class="stat__l">Kubernetes clusters brought under automated testing at Splunk</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat__n">67%</div>
+                        <div class="stat__l">Faster Graph API sync after parallelizing 50k+ records per category</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat__n">40+</div>
+                        <div class="stat__l">Interviews run and presented to Microsoft PMs and design leads</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section section--projects">
+        <div class="wrap">
+            <div class="section-head" data-reveal>
+                <div>
+                    <div class="eyebrow">02</div>
+                    <h2>Projects</h2>
+                </div>
+                <a href="https://github.com/WesHolmes" target="_blank" rel="noopener noreferrer"
+                    class="link-underline link-underline--muted">All repositories on GitHub →</a>
+            </div>
+
+            <article class="project" data-reveal>
+                <div class="project__shot">
+                    <div class="chrome">
+                        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                        <span class="chrome__path">rhythmic — project workspace</span>
+                    </div>
+                    <div class="shot">
+                        <div class="shot__empty">assets/rhythmic.png</div>
+                        <img src="assets/rhythmic.png" alt="Rhythmic project workspace" loading="lazy"
+                            onerror="this.remove()">
+                    </div>
+                </div>
+                <div class="project__card">
+                    <div class="kicker">In development</div>
+                    <h3>Rhythmic</h3>
+                    <div class="project__tagline">AI-first project management</div>
+                    <p class="project__desc">A platform that aligns teams around project objectives — coordinating
+                        recurring stand-ups, tracking engagement, and surfacing where execution is drifting. AI-powered
+                        workflows built on the OpenAI and Claude APIs support planning, alignment, and team
+                        communication.</p>
+                    <div class="tags">
+                        <span class="tag">Python</span><span class="tag">Flask</span><span class="tag">React</span><span
+                            class="tag">PostgreSQL</span><span class="tag">Azure</span><span class="tag">OpenAI /
+                            Claude</span>
+                    </div>
+                    <div class="links">
+                        <a href="https://github.com/WesHolmes" target="_blank" rel="noopener noreferrer"
+                            class="link-underline">Private repo — ask me about it →</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project project--flip" data-reveal>
+                <div class="project__shot">
+                    <div class="chrome">
+                        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                        <span class="chrome__path">node src/groovy.js song.mid js</span>
+                    </div>
+                    <div class="shot">
+                        <div class="shot__empty">assets/groovy.png</div>
+                        <img src="assets/groovy.png" alt="Groovy compiler output" loading="lazy" onerror="this.remove()">
+                    </div>
+                </div>
+                <div class="project__card">
+                    <div class="kicker">Compilers · CMSI 3802</div>
+                    <h3>Groovy</h3>
+                    <div class="project__tagline">Music in. Software out.</div>
+                    <p class="project__desc">A programming language whose source code is a MIDI performance. Channel
+                        routing maps notes to keywords, letters, and punctuation; the gaps between notes become
+                        whitespace. The full pipeline — parsing, static semantic analysis, AST optimization, JS code
+                        generation — compiles a recorded performance into executable JavaScript.</p>
+                    <div class="tags">
+                        <span class="tag">JavaScript</span><span class="tag">Ohm</span><span
+                            class="tag">MIDI</span><span class="tag">Node.js</span>
+                    </div>
+                    <div class="links">
+                        <a href="https://github.com/WesHolmes/Groovy" target="_blank" rel="noopener noreferrer"
+                            class="link-underline">Source →</a>
+                        <a href="https://diegocuadros1.github.io/" target="_blank" rel="noopener noreferrer"
+                            class="link-underline">Language site →</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project" data-reveal>
+                <div class="project__shot">
+                    <div class="chrome">
+                        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                        <span class="chrome__path">azure-auto-fetching-system</span>
+                    </div>
+                    <div class="shot">
+                        <div class="shot__empty">assets/azure.png</div>
+                        <img src="assets/azure.png" alt="Azure auto-fetching system" loading="lazy"
+                            onerror="this.remove()">
+                    </div>
+                </div>
+                <div class="project__card">
+                    <div class="kicker">Built at DivergeIT</div>
+                    <h3>Auto-Fetching System</h3>
+                    <div class="project__tagline">Multi-tenant data sync on Azure</div>
+                    <p class="project__desc">Timer- and HTTP-triggered Azure Functions that collect, clean, and
+                        synchronize multi-tenant Microsoft Graph data into SQL. Parallelizing retrieval cut large-scale
+                        sync time by roughly 67% while processing 50,000+ records per category, shipped through CI/CD
+                        with pull requests and code review.</p>
+                    <div class="tags">
+                        <span class="tag">Python</span><span class="tag">Azure Functions</span><span
+                            class="tag">Microsoft Graph</span><span class="tag">SQL</span><span
+                            class="tag">Postman</span>
+                    </div>
+                    <div class="links">
+                        <a href="https://github.com/WesHolmes/azure-auto-fetching-system" target="_blank"
+                            rel="noopener noreferrer" class="link-underline">Source →</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project project--flip" data-reveal>
+                <div class="project__shot">
+                    <div class="chrome">
+                        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                        <span class="chrome__path">roc_curve.png · confusion_matrix.png</span>
+                    </div>
+                    <div class="shot">
+                        <div class="shot__empty">assets/classifiers.png</div>
+                        <img src="assets/classifiers.png" alt="Classifier performance charts" loading="lazy"
+                            onerror="this.remove()">
+                    </div>
+                </div>
+                <div class="project__card">
+                    <div class="kicker">Machine learning</div>
+                    <h3>Binary Classifiers</h3>
+                    <div class="project__tagline">Salary prediction &amp; toxicity filtering</div>
+                    <p class="project__desc">Two end-to-end classification systems: logistic regression over ~48k census
+                        records predicting income band at &gt;84% test accuracy, and a multinomial Naive Bayes toxicity
+                        filter over 560k+ Wikipedia talk comments at &gt;92%. Typed throughout with strict mypy,
+                        benchmarked in unit tests, with automated EDA and performance visualizations.</p>
+                    <div class="tags">
+                        <span class="tag">Python</span><span class="tag">scikit-learn</span><span
+                            class="tag">pandas</span><span class="tag">matplotlib</span><span class="tag">mypy</span>
+                    </div>
+                    <div class="links">
+                        <a href="https://github.com/WesHolmes/salary-toxicity-ml-classifiers" target="_blank"
+                            rel="noopener noreferrer" class="link-underline">Source →</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact" class="section section--contact">
+        <div class="wrap contact">
+            <div>
+                <div class="eyebrow" data-reveal>03 / Contact</div>
+                <h2 data-reveal>Let's build something.</h2>
+                <p class="contact__intro" data-reveal>Have a question, role, or idea. Shoot me a message, or connect
+                    with me.</p>
+                <div class="contact__list" data-reveal>
+                    <a href="mailto:westleywholmes@gmail.com" class="contact__row">
+                        <span>westleywholmes@gmail.com</span><span class="contact__label">EMAIL</span>
+                    </a>
+                    <a href="tel:+12067397557" class="contact__row">
+                        <span>(206) 739-7557</span><span class="contact__label">PHONE</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/westley-holmes-98722925a" target="_blank"
+                        rel="noopener noreferrer" class="contact__row">
+                        <span>www.linkedin.com/in/westley-holmes-98722925a</span><span
+                            class="contact__label">LINKEDIN</span>
+                    </a>
+                </div>
+            </div>
+            <form class="form" id="contact-form" novalidate data-reveal>
+                <div class="field">
+                    <label for="cf-name">Name</label>
+                    <input id="cf-name" name="name" type="text" placeholder="Your name">
+                    <span class="err" data-err="name"></span>
+                </div>
+                <div class="field">
+                    <label for="cf-email">Email</label>
+                    <input id="cf-email" name="email" type="email" placeholder="you@company.com">
+                    <span class="err" data-err="email"></span>
+                </div>
+                <div class="field">
+                    <label for="cf-msg">Message</label>
+                    <textarea id="cf-msg" name="message" rows="5" placeholder="What's on your mind?"></textarea>
+                    <span class="err" data-err="message"></span>
+                </div>
+                <button type="submit" class="btn">Send message</button>
+                <div class="form__note" id="form-note" hidden></div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <span class="footer__name">WESTLEY HOLMES</span>
+            <div class="footer__links">
+                <a href="https://github.com/WesHolmes" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/westley-holmes-98722925a" target="_blank"
+                    rel="noopener noreferrer">LinkedIn</a>
+                <a href="mailto:westleywholmes@gmail.com">Email</a>
+                <a href="#home">Back to top ↑</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
